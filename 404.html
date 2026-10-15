@@ -1,0 +1,22 @@
+<!doctype html>
+<!--
+  ortovetproducts.com (çıplak alan adı) → www.ortovetproducts.com yönlendirmesi.
+  Wix, dışarı yönlendirilen kök alan adına SSL vermediği için çıplak adres
+  GitHub Pages'e bağlı; asıl site Cloudflare Pages'te (www). Bu dosya 404.html
+  olarak da kullanılır, böylece her yol aynı yola yönlenir.
+-->
+<html lang="tr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Ortovet Products</title>
+    <meta name="robots" content="noindex" />
+    <link rel="canonical" href="https://www.ortovetproducts.com/" />
+    <script>
+      location.replace('https://www.ortovetproducts.com' + location.pathname + location.search + location.hash);
+    </script>
+    <meta http-equiv="refresh" content="0; url=https://www.ortovetproducts.com/" />
+  </head>
+  <body>
+    <p><a href="https://www.ortovetproducts.com/">www.ortovetproducts.com</a></p>
+  </body>
+</html>
